@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+* {
+  font-family: "merriweather", serif, sans-serif;
+}
+
+.content-container {
+  margin: 0px 20px;
+  padding: 50px 30px 60px 30px;
+  min-height: 500px;
+}
+
+@media (min-width: 500px) {
+  .content-container {
+    margin: 0px 100px;
+    padding: 50px 50px 60px 50px;
+    min-height: 500px;
+  }
+}/*# sourceMappingURL=style.css.map */

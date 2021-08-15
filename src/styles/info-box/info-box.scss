@@ -1,0 +1,59 @@
+.infoBox-container {
+    padding-top: 20px;
+    min-height: 500px
+}
+.button-box  {
+    text-align: center
+}
+
+.button-box button {
+    padding: 12px;
+    margin: 50px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.text-box {
+    min-height: 230px;
+    max-height: 400px;
+    background-color: #fbfcfc;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: scroll;
+}
+
+.white {
+    background-color: #ffffff
+}
+
+.grey {
+    background-color: #e7e7e7;
+}
+
+.text-box p {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 30px;
+    min-height: 120px;
+    max-width: 10000px
+}
+
+@media (max-width: 995px) {
+    .text-box {
+        overflow: scroll;
+    }
+    .button-box button {
+        padding: 12px;
+        margin: 20px;
+        font-size: 15px;
+    }
+    .text-box p {
+        text-align: center;
+        font-size: 15px;
+        padding: 25px;
+        line-height: 20px;
+        min-height: 120px;
+    }
+}
